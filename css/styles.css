@@ -1,0 +1,232 @@
+/* Font */
+html {
+    font: 20px Arial, sans-serif; /* Set the base font size and family using shorthand notation */
+}
+
+h1,
+h2 {
+    font-variant: small-caps; /* Apply small capitals for h1 and h2 */
+}
+
+figcaption {
+    font-weight: bold; /* Make the font bold */
+    font-variant: small-caps; /* Use small capitals for font variation */
+    font-size: 1.2em; /* Increase the font size at the root level */
+}
+
+q {
+    font-style: italic; /* Make the font italic */
+    font-family: cursive; /* Apply a cursive font family */
+    font-size: 1.2em; /* Increase the font size related to the root element */
+}
+
+footer p {
+    font-size: 0.8em; /* Adjust the font size for the paragraph inside the footer */
+}
+
+/* Width, Maximum Width, and Height */
+body {
+    width: 80%; /* Set the width relative to the parent element */
+    max-width: 800px; /* Define the maximum width with an integer value */
+}
+
+img {
+    width: 100%; /* Set the width relative to its parent */
+    height: auto; /* Maintain the aspect ratio */
+}
+
+figure {
+    width: 100%; /* Set the width relative to its parent */
+    height: auto; /* Maintain the aspect ratio */
+}
+
+iframe,
+video {
+    width: 100%; /* Set the width relative to its parent */
+}
+
+/* Model & Aligning of Box */
+body {
+    padding: 1em; /* Apply padding to all sides of the body */
+    margin: 0 auto; /* Center align the body by setting auto margin */
+}
+
+header,
+footer {
+    text-align: center; /* Center align text in the header and footer */
+}
+
+.mainsection {
+    text-align: center; /* Center align text in main sections */
+    padding: 1em; /* Add padding to all sides of the element */
+}
+
+#bio blockquote {
+    text-align: left; /* Align text to the left inside the blockquote in the bio section */
+}
+
+img {
+    padding: 0.5em; /* Apply padding to all sides of the image */
+}
+
+figure {
+    padding: 0.5em; /* Add padding to all sides of the figure */
+    margin: 1em auto; /* Set margin to top and bottom, and align center */
+}
+
+/* Borders & Box shadow */
+header,
+footer {
+    border: 1px solid #d35400; /* Apply border to the header and footer with a different color */
+}
+
+#absolute-path-image {
+    border: 1px solid #17a589; /* Set border color for figure with absolute path image */
+}
+
+#relative-path-image {
+    border: 1px solid #8e44ad; /* Set border color for figure with relative path image */
+}
+
+blockquote#quote q {
+    border: 1px solid #3498db; /* Apply border to blockquote with q element nested */
+    box-shadow: 3px 3px 3px #f1c40f; /* Add box shadow to blockquote with q element nested */
+}
+
+iframe,
+video {
+    border: 1px solid #f39c12; /* Apply border to iframe/video element */
+}
+
+/* Background */
+header, footer {
+    background: linear-gradient(to right, #ff5733, #663399); /* Set a gradient background for the header and footer */
+}
+
+.sections {
+    background-color: hsla(20, 80%, 60%, 0.3); /* Set a background color with a slight transparency for sections */
+}
+
+#absolute-path-image {
+    background-color: hsla(150, 75%, 50%, 0.3); /* Set a background color with a slight transparency for figure with absolute path image */
+}
+
+#relative-path-image {
+    background-color: hsla(270, 80%, 60%, 0.3); /* Set a background color with a slight transparency for figure with relative path image */
+}
+/* Font */
+html {
+    font: 20px Arial, sans-serif; /* Set the base font size and family using shorthand notation */
+}
+
+h1,
+h2 {
+    font-variant: small-caps; /* Apply small capitals for h1 and h2 */
+}
+
+figcaption {
+    font-weight: bold; /* Make the font bold */
+    font-variant: small-caps; /* Use small capitals for font variation */
+    font-size: 1.2em; /* Increase the font size at the root level */
+}
+
+q {
+    font-style: italic; /* Make the font italic */
+    font-family: cursive; /* Apply a cursive font family */
+    font-size: 1.2em; /* Increase the font size related to the root element */
+}
+
+footer p {
+    font-size: 0.8em; /* Adjust the font size for the paragraph inside the footer */
+}
+
+/* Width, Maximum Width, and Height */
+body {
+    width: 80%; /* Set the width relative to the parent element */
+    max-width: 800px; /* Define the maximum width with an integer value */
+}
+
+img {
+    width: 100%; /* Set the width relative to its parent */
+    height: auto; /* Maintain the aspect ratio */
+}
+
+figure {
+    width: 100%; /* Set the width relative to its parent */
+    height: auto; /* Maintain the aspect ratio */
+}
+
+iframe,
+video {
+    width: 100%; /* Set the width relative to its parent */
+}
+
+/* Model & Aligning of Box */
+body {
+    padding: 1em; /* Apply padding to all sides of the body */
+    margin: 0 auto; /* Center align the body by setting auto margin */
+}
+
+header,
+footer {
+    text-align: center; /* Center align text in the header and footer */
+}
+
+.mainsection {
+    text-align: center; /* Center align text in main sections */
+    padding: 1em; /* Add padding to all sides of the element */
+}
+
+#bio blockquote {
+    text-align: left; /* Align text to the left inside the blockquote in the bio section */
+}
+
+img {
+    padding: 0.5em; /* Apply padding to all sides of the image */
+}
+
+figure {
+    padding: 0.5em; /* Add padding to all sides of the figure */
+    margin: 1em auto; /* Set margin to top and bottom, and align center */
+}
+
+/* Borders & Box shadow */
+header,
+footer {
+    border: 1px solid #d35400; /* Apply border to the header and footer with a different color */
+}
+
+#absolute-path-image {
+    border: 1px solid #17a589; /* Set border color for figure with absolute path image */
+}
+
+#relative-path-image {
+    border: 1px solid #8e44ad; /* Set border color for figure with relative path image */
+}
+
+blockquote#quote q {
+    border: 1px solid #3498db; /* Apply border to blockquote with q element nested */
+    box-shadow: 3px 3px 3px #f1c40f; /* Add box shadow to blockquote with q element nested */
+}
+
+iframe,
+video {
+    border: 1px solid #f39c12; /* Apply border to iframe/video element */
+}
+
+/* Background */
+header, footer {
+    background: linear-gradient(to right, #ff5733, #663399); /* Set a gradient background for the header and footer */
+}
+
+.sections {
+    background-color: hsla(20, 80%, 60%, 0.3); /* Set a background color with a slight transparency for sections */
+}
+
+#absolute-path-image {
+    background-color: hsla(150, 75%, 50%, 0.3); /* Set a background color with a slight transparency for figure with absolute path image */
+}
+
+#relative-path-image {
+    background-color: hsla(270, 80%, 60%, 0.3); /* Set a background color with a slight transparency for figure with relative path image */
+}
